@@ -1,0 +1,49 @@
+@tailwind base;
+
+/* These are our custom additions ============================================ */
+h1 {
+  line-height: 1.2;
+
+  @apply font-bold font-title text-header400 text-brand-dark;
+}
+
+h2 {
+  line-height: 1.19;
+
+  @apply font-bold text-header300 text-brand-dark;
+}
+
+h3 {
+  line-height: 1.25;
+
+  @apply font-bold text-header200 text-brand-dark;
+}
+
+h4 {
+  line-height: 1.33;
+
+  @apply font-bold text-header100 text-brand-dark;
+}
+
+a {
+  @apply text-brand-primary font-medium;
+}
+
+button:focus,
+input:focus,
+optgroup:focus,
+select:focus,
+textarea:focus {
+  @apply outline-none;
+}
+
+@tailwind components;
+
+.stars-empty {
+  background: repeat-x url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEwLjkiIHZpZXdCb3g9IjAgMCA1MSA0OCI+PHBhdGggZmlsbD0iIzREODZFNyIgZD0iTTI1IDFsNiAxN2gxOEwzNSAyOWw1IDE3LTE1LTEwLTE1IDEwIDUtMTdMMSAxOGgxOHoiLz48L3N2Zz4=);
+}
+
+.stars {
+  background: repeat-x url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEwLjkiIHZpZXdCb3g9IjAgMCA1MSA0OCI+PHBhdGggZmlsbD0iI0Y4RTcxQyIgZD0iTTI1IDFsNiAxN2gxOEwzNSAyOWw1IDE3LTE1LTEwLTE1IDEwIDUtMTdMMSAxOGgxOHoiLz48L3N2Zz4=);
+}
+@tailwind utilities;
